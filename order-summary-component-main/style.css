@@ -1,0 +1,93 @@
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color:hsl(225, 100%, 94%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.top_image {
+  width:100%;
+}
+
+.order_summary {
+  font-weight: bold;
+  text-align: center;
+}
+
+.order_summary_description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan_description {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin: 20px 50px;
+  padding: 20px;
+  display: flex;
+}
+
+.music_icon {
+  margin-right: 20px;
+}
+
+.plan_detail_description {
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.plan_name {
+  font-weight: bold;
+}
+
+.change_btn {
+  padding-top: 10px;
+}
+
+#change_btn_link {
+  text-decoration: none;
+}
+
+.payment_btn {
+  text-align: center;
+  margin: 10px 50px;
+  padding: 10px 0;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  box-shadow: 10px 20px 15px -15px rgba(80, 84, 184, 0.75);
+}
+
+.payment_btn:hover {
+  opacity: 0.7;
+}
+
+#payment_btn_link {
+  text-decoration: none;
+  color: white;
+}
+
+.cancel_btn_link {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#cancel_btn_link {
+  font-weight: bold;
+  color: silver;
+  text-decoration: none;
+}
+
+#cancel_btn_link:hover {
+  color: black;
+}
